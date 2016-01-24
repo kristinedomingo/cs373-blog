@@ -6,7 +6,7 @@
 name:               "CS373 Spring 2016: Kristine Domingo"
 
 # URL
-baseurl:            ""
+baseurl:            "/cs373-blog"
 permalink:          /:year/:month/:day/:title.html
 
 # Markdown
