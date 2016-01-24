@@ -15,7 +15,7 @@ markdown:           rdiscount
 # Navigation
 nav:
   - name:           "About"
-    href:           "/about"
+    href:           "/cs373-blog/about"
   - name:           "Homepage"
     href:           "//kristinedomingo.com"
 
