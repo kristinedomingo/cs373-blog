@@ -8,4 +8,4 @@ This is a weekly blog done for extra credit in [CS 373: Software Engineering](ht
 
 ## Contact
 - Homepage: [kristinedomingo.com](http://kristinedomingo.com)
-- Email: [kristineadomingo@gmail.com](mailto:kristineadomingo@gmail.com)
+- Email: [me@kristinedomingo.com](mailto:me@kristinedomingo.com)
