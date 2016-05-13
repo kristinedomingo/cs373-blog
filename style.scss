@@ -16,12 +16,12 @@ body {
 html {
   font-family: 'Quicksand', serif;
   letter-spacing: -1px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.6;
   
   @media (min-width: 38em) {
-    font-size: 23px;
+    font-size: 18px;
   }
 }
 
@@ -257,7 +257,7 @@ img {
   width: 60%;
 
   @media (min-width: 38rem) {
-    width: 199px;
+    width: 150px;
     margin-right: 20px;
     margin-bottom: 2.5rem;
   }
