@@ -11,6 +11,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 html {
@@ -19,7 +20,7 @@ html {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.6;
-  
+
   @media (min-width: 38em) {
     font-size: 18px;
   }
@@ -100,11 +101,11 @@ dd {
 ul {
   list-style: inside circle;
   padding-left: 0;
-  
+
   li {
     margin-bottom: .25rem;
   }
-  
+
   ul,
   ol {
     margin-top: .25rem;
@@ -116,11 +117,11 @@ ol {
   list-style: inside decimal;
   padding-left: 0;
   font-size: 0.9rem;
-  
+
   li {
     margin-bottom: .25rem;
   }
-  
+
   ul,
   ol {
     margin-top: .25rem;
@@ -170,7 +171,7 @@ blockquote {
   margin: 0 2rem 1rem 0;
   color: #999;
   border-left: .5rem solid #e5e5e5;
-  
+
   p:last-child {
     margin-bottom: 0;
   }
@@ -311,7 +312,7 @@ tbody tr:nth-child(odd) th {
   padding-right: 1.5rem;
   margin-left:  auto;
   margin-right: auto;
-  
+
   @media (min-width: 38rem){
     padding-top: 3rem;
     padding-left: 1rem;
@@ -323,10 +324,10 @@ tbody tr:nth-child(odd) th {
 
   &-title {
     font-weight: 400;
-    
+
     a {
       color: #000;
-      
+
       &:hover,
       &:focus {
         text-decoration: none;
@@ -338,33 +339,33 @@ tbody tr:nth-child(odd) th {
         transition: 0.5s;
       }
     }
-    
+
     span {
       color: #ddd;
     }
-    
+
   }
-  
+
   &-title--small {
     margin-bottom: .75rem;
     font-size: .9rem;
     font-weight: 600;
     text-transform: uppercase;
-    
+
     a {
       color: #ed8497;
-      
+
       &:hover,
       &:focus {
         text-decoration: none;
       }
     }
   }
-  
+
   .masthead-nav {
     margin-bottom: 2rem;
     text-transform: lowercase;
-    
+
     a {
       color: #999;
       font-weight: 400;
@@ -406,10 +407,10 @@ tbody tr:nth-child(odd) th {
 .list {
   &-post-title {
     margin-bottom: .25rem;
-    
+
     a {
       color: #ed8497;
-      
+
       &:hover,
       &:focus {
         text-decoration: none;
@@ -497,3 +498,10 @@ tbody tr:nth-child(odd) th {
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
+.post-item {
+  margin-bottom: 10px;
+}
+
+.post-content {
+  text-align: left;
+}

@@ -6,6 +6,12 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
   <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Quicksand:400,300'>
   <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Unica+One'>
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.6.0/base-min.css&pure/0.6.0/grids-min.css&pure/0.6.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.6.0/base-min.css&pure/0.6.0/grids-min.css&pure/0.6.0/grids-responsive-min.css">
+  <!--<![endif]-->
   <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
   </head>
 <body>
